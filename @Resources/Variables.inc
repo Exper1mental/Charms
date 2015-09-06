@@ -25,12 +25,15 @@
  SearchURL=search-ms:query=$UserInput$&crumb=location:#SearchPath#
  ;%Comspec% "$UserInput$"
  ;%Comspec% /k taskkill /im $UserInput$.exe
+ ;;["cmd.exe" "/k $UserInput$"]
  ; search-ms:query=$UserInput$&crumb=location:#SearchPath#
  SearchPath=shell:::{20d04fe0-3aea-1069-a2d8-08002b30309d}&
  ; Used only for the location that Windows Explorer searches (set to This PC by default)
- SearchCmd1or2=2
- SearchCmd2=[!WriteKeyValue Variables SearchCmd1or2 "2" "#@#Variables.inc"]
- SetSearchCmd2=[!SetVariable SearchCmd1or2 "2"]
+ SearchCmd=2
+ SearchCmd2=[!WriteKeyValue Variables SearchCmd "2" "#@#Variables.inc"]
+ SetSearchCmd2=[!SetVariable SearchCmd "2"]
+ SearchCmd3=[!WriteKeyValue Variables SearchCmd "3" "#@#Variables.inc"]
+ SetSearchCmd3=[!SetVariable SearchCmd "3"]
 
 
 ;===MusicPlayer===
