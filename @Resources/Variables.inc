@@ -25,6 +25,7 @@
  SearchURL=search-ms:query=$UserInput$&crumb=location:#SearchPath#
  ;%Comspec% "$UserInput$"
  ;%Comspec% /k taskkill /im $UserInput$.exe
+ ;https://technet.microsoft.com/en-us/library/bb490880.aspx#EBAA
  ;;["cmd.exe" "/k $UserInput$"]
  ; search-ms:query=$UserInput$&crumb=location:#SearchPath#
  SearchPath=shell:::{20d04fe0-3aea-1069-a2d8-08002b30309d}&

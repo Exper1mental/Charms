@@ -13,3 +13,4 @@ Included but not yet integrated:
 - JSMorley of the Rainmeter Forums for RainRGB4
 - Optimumx for the Shortcut and CleanUp executables
 - NirSoft for NirCmd
+- Nels-o of GitHub for the Toaster win 8 console notifications app
