@@ -1,1 +1,1 @@
-E:\Users\Tommy\Documents\Rainmeter\Skins\Charms\@Resources\Addons\Toaster\Release\Toast.exe toast -t "Title text" -m "Message text goes here" -p "E:\Users\Tommy\Documents\Rainmeter\Skins\Charms\@Resources\Images\Updater\Updateb.png"
+E:\Users\%USERNAME%\Documents\Rainmeter\Skins\Charms\@Resources\Addons\Toaster\Release\Toast.exe toast -t "Title text" -m "Message text goes here" -p "E:\Users\%USERNAME%\Documents\Rainmeter\Skins\Charms\@Resources\Images\Updater\Updateb.png"

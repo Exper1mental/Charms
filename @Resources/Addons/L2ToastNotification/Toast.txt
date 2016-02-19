@@ -1,0 +1,76 @@
+L2 Toast Notification
+---------------------
+If you have any questions / feedback please contact: 
+ email: feedbackh@l2adv.com   /    paul@l2adv.com
+ website: http://www.l2adv.com/
+
+For Windows 8.0 an above.
+
+This program allows Windows Toast Notifications to be shown from the Desktop.
+On running a shortcut will be created with the same AppUserModelID:
+  <http://msdn.microsoft.com/en-us/library/windows/desktop/dd378459>
+The shortcut is creatd in the current Users Start Menu location:
+  C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\
+The shortcut will be named whatever the exe file is called so multiple can be created.
+
+Can be run from another application or create a shortcut and add parameters:
+  Three parameters are accepted
+    1. Title (Shown with Bold Font)
+    2. Line 1
+    3. Line 2
+  Additionally if ToastImage.png is in the same folder this Image will be shown.
+
+   ******************************************************
+   *            *                                       *
+   *            *     TITLE                             *
+   *   IMAGE    *     Line 1                            *
+   *            *     Line 2                            *
+   *            *                                  Icon *
+   ******************************************************
+
+Example: L2ToastNotification.exe "Paul's Programs" "http://www.l2adv.com/" "L2 ADVanced"
+Note: parameters should be enclosed in quotes.
+      Each line can accomodate about 27 characters.  If longer ... will be shown
+
+   ******************************************************
+   *            *                                       *
+   *            *     Paul's Programs                   *
+   *   IMAGE    *     http://www.l2adv.com/             *
+   *            *     L2 ADVanced                       *
+   *            *                                  Icon *
+   ******************************************************
+
+---------------------------------------------------------------------------------------
+Code based on :
+Sending toast notifications from desktop apps sample
+<http://code.msdn.microsoft.com/windowsdesktop/sending-toast-notifications-71e230a2>
+License
+MICROSOFT LIMITED PUBLIC LICENSE version 1.1:
+<http://opensource.org/licenses/MS-PL>
+---------------------------------------------------------------------------------------
+
+Program Released under the following license terms:
+LICENCE TYPE: FREEWARE/DONATIONWARE LICENSE
+LICENSOR / DEVELOPER: PAUL HEINRICH
+
+This is a legal agreement between you, an end user, and the licensor. 
+
+1. This agreement permits you to use the software for non-commercial purposes only. 
+
+2. You may not rent, lease, sell, reverse engineer, decompile, disassemble, or modify this software in any way.
+
+3. DISTRIBUTION.  Internet download sites and other distributable medium may distribute the software.  You may not customize, integrate or re-bundle this software in any way that affects the integrity of the original software or license terms.
+
+4. COPYRIGHT.  Title, ownership rights and intellectual property rights in and to the software shall remain in Paul Heinrich. The software is protected by international copyright treaties.
+
+5. DISCLAIMER OF WARRANTY.  The author of this software accepts no responsibility for damages resulting from the use of this product and makes no warranty or representation, either express or implied, including but not limited to, any implied warranty of merchantability or fitness for a particular purpose. This software is provided "as is", and you, its user, assume all risks when using it. 
+
+By using this software, you agree to be bound by the terms of this license.
+This license agreement is then effective while you possess, use and continue to make use of this software product. If you do not agree with the software license agreement you must not possess or use the software - this license agreement will then not apply to you. 
+
+This software is free, however if you do benefit from it and find it useful please consider a donation to the developer for his time, expense and efforts to make this software possible.
+
+If you have any questions regarding this license, please contact: 
+ email: paul@l2adv.com / feedback@l2adv.com
+ website: http://www.l2adv.com/
+
