@@ -1,0 +1,6 @@
+Open Run.exe
+Type CMD /?
+That's it
+http://lifehacker.com/256474/pipe-commands-to-cmdexe-with-switches
+
+To send multiple commands separate them with &&

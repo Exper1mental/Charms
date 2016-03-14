@@ -26,7 +26,8 @@
  FontDetail=Candara
  FontInfo=Utsaah
  ; The above four font variables currently do not effect anything.
- ; They are mostly variables used in the past that have become obsolete.
+ ; They are variables I used in the past that now should be obselete.
+ ; I keep these here in case I decide to reuse them for something.
 
 
 ;~~~ Colors ~~~
@@ -44,7 +45,7 @@
 ; NOTE: It is STRONGLY recommended that at least either BackgroundColor and AccentColor or BackgroundColorAlpha
 ; and AccentColorAlpha be noticably different from each other. If they aren't certain effects (both helpful ones and purely
 ; aethetical ones) may be hard to see or completely invisible. This is not intended to discourage you from customizing
-; the colors to your preference, but rather warning you of potential issues you might encounter is certain instances.
+; the colors to your preference, but rather warning you of potential issues you might encounter under certain circumstances.
 
  PrimaryColor=203,48,48
  PrimaryColorAlpha=255
@@ -88,11 +89,36 @@
 
 
 ;~~~ Updates ~~~
+; Note: This also includes variables used in the Update skin.
  AutoCheck=0
- ; This determines whether or not the Charms bar will check for updates in the background.
- ; This does not effect using the Update skin to check for updates.
+ ; This determines whether or not the Charms bar will occasionally check for Rainmeter and Charms updates
+ ; in the background. This does not impede or effect the use of the Update skin for manually checking updates.
  ; If set to "0" then the Charms Bar will not check for updates
  ; If set to "1" then the Charms Bar will check for updates
+
+
+ ;--- Rainmeter Updater ---
+ RainVersion=0.0.0.0000
+ ; Please do not tamper with this variable. It has been set to 0.0.0.0000 intentionally. If you haven't noticed
+ ; already this is NOT the value displayed in the Updater skin. Rather, this is the value used before the Update
+ ; skin retrieves the installed version of Rainmeter.
+ RainVersionType=Final
+ ; This determines the type of Rainmeter updates the Updater skin will look for when there is an internet connection
+ ; There are two acceptable values for this variable:
+ ;    1. Set to "Final". This will only check for the latest Final release of Rainmeter
+ ;    2. Set to "Beta". This will check for the lastest Beta release of Rainmeter. If there are no available Betas it
+ ;        will look for the latest Final release.
+ RegExp=.*https://github.com/rainmeter/rainmeter/releases/download/v(.*)/Rainmeter
+ ; This is the variable is to use retrieve the value of the latest version of Rainmeter from the Rainmeter GitHub site. 
+ ;AvailableVersion=AvailableDownloadVersion
+ ; Just an obsolete variable I have left here for whatever reason...
+
+
+ ;--- Charms Updater ---
+ CharmsVersion=0.9.0
+ ; Please do not tamper with this variable. This is used to compare your version of Charms to the latest version of Charms.
+ ; Changing this will interfere with the ability of skin to accurately see if there is an update available.
+
 
 
 
@@ -140,12 +166,15 @@
  ;;["cmd.exe" "/k $UserInput$"]
  ; search-ms:query=$UserInput$&crumb=location:#SearchPath#
  SearchPath=shell:::{20d04fe0-3aea-1069-a2d8-08002b30309d}&
- ; Used only for the location that Windows Explorer searches (set to This PC by default)
+ ; This variable is only used by the Windows Explorer search
+ ; It sets where Exploreres will search for your query (it set to This PC by default, which searches your 
+ ; entire PC)
  SearchCmd=2
  SearchCmd2=[!WriteKeyValue Variables SearchCmd "2" "#@#Variables.inc"]
  SetSearchCmd2=[!SetVariable SearchCmd "2"]
  SearchCmd3=[!WriteKeyValue Variables SearchCmd "3" "#@#Variables.inc"]
  SetSearchCmd3=[!SetVariable SearchCmd "3"]
+ ; Please do not tamper with the above variables unless you know what you are doing.
  PathToLocate32=#@#Addons\Locate32\Locate32.exe
  ; As it says, this is used as the path to Locate32.
  ; It is advised you do not change this unless you know what you are doing.
@@ -165,41 +194,16 @@
 ;=== Weather Skin Variables ===
  WeatherCode=29644
  ;USNY0996
- ; For best results please use your ZIP code Weather.com weather code
+ ; For best results please use your ZIP code or your Weather.com weather code
  WeatherIcons=ClimaconsWhite
  ;PlainWeatherIconsWhite
  Unit=F
-  ; This 
+  ; This variable changes the temperature unit that is used.
+  ; Setting this to "F" will change your weather unit to Fahrenheit
+  ; Setting this to "M" will change your weather unit to Celsius
  Unit1=F
- ; Please do not tamper with this variable unless you know what you are doing.
- ; Setting this to "F" will change your weather unit to Fahrenheit
  Unit2=M
- ; Please do not tamper with this variable unless you know what you are doing.
- ; Setting this to "M" will change your weather unit to Celsius
+ ; Please do not tamper with the above variables unless you know what you are doing.
  WeatherUnitAutodetect=0
  ; This determines whether or not Charms uses your system weather unit or the skin weather unit (which
  ; is above and called Unit)
-
-
-
-
-;=== Updater Skin Variables ===
-;~~~ Rainmeter Updater ~~~
- RainVersion=0.0.0.0000
- ; Please do not tamper with this variable. It has been set to 0.0.0.0000 intentionally. If you haven't noticed
- ; this is NOT the value displayed in the Update skin. Rather, this is the value used before the Update skin
- ; retrieves the installed version of Rainmeter.
- RainVersionType=Final
- ; This determines the types of Rainmeter updates the Update skin will look for when there is an internet connection
- ; There are two acceptable options for this variable:
- ;    1. Set to "Final". This will only check for the latest Final release of Rainmeter
- ;    2. Set to "Beta". This will check for the lastest Beta release of Rainmeter. If there are no available Betas it
- ;        will look for the lastest Final release.
- RegExp=.*https://github.com/rainmeter/rainmeter/releases/download/v(.*)/Rainmeter
- ; This is the variable used by 
- AvailableVersion=AvailableDownloadVersion
-
-
-;~~~Charms Updater~~~
- CharmsVersion=0.9.0
- ; Please do not tamper with this variable. This is used to compare your version of Charms to the latest version of Charms.
