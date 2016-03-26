@@ -12,6 +12,18 @@
  TransitionSpeed1=
  TransitionSpeed2=
  SidebarZPos=1
+ ; Determines the position of the Charms sidebar skins in relation to other skins and windows.
+ ; Acceptable values (best way to understand them is to try them)
+ ;     -2    On Desktop. The sidebars will try to force themselves to be below all other windows and skins
+ ;     -1     Bottom. The will try to force themselves to be below all other windows and skins. I'm not sure
+ ;               what the difference is between this and On Desktop.
+ ;      0     Normal. The sidebars will behave...normally
+ ;      1     Topmost. The sidebar will display on top of other windows and skins, but won't compete with
+ ;               other skins to stay Topmost
+ ;      2     Stay Topmost. The sidebare will force itself to display on top of any other window and skin. This
+ ;               may cause issues if another window or skin in that area of the desktop also tries to Stay Topmost.
+ ;               This setting can be useful if you have other skins set to Topmost and want to make sure the sidebar
+ ;               is on top of them.
 
 
 ;~~~ Fonts ~~~
@@ -23,35 +35,51 @@
  ; The best way to see what it effects is to change it to a different font.
  FontSemilight=Segoe UI Semilight
  FontSemibold=Segoe UI Semibold
- FontDetail=Candara
- FontInfo=Utsaah
- ; The above four font variables currently do not effect anything.
+ ; The above font variables currently do not effect anything.
  ; They are variables I used in the past that now should be obselete.
  ; I keep these here in case I decide to reuse them for something.
 
 
-;~~~ Colors ~~~
+;~~~ Colors and Alphas~~~
+ ; To avoid issues when changing color variables, do not use HEX values. Use RGB (Red,Green,Blue) instead
+
+ ;---Background Colors---
  BackgroundColor=20,20,20
- ; Determines the background color
+ ; Pretty straightforward. Determines the background color
  ; Uses the RGB (Red,Green,Blue) format
  ; "0,0,0" is completely black and "255,255,255" is completely white
  BackgroundColorAlpha=230
- ; Determines the alpha (transparency) of the background color
+ ; Determines the alpha (transparency) of the meters using the BackgroundColor variable
  ; "0" is completely transparent and "255" is completely opaque
 
  AccentColor=203,48,48
+ ; Determines the "accent" color.
+ ; In general accent color is used for fade-in button backgrounds
  AccentColorAlpha=128
+ ; Determines the alpha (transparency) of meters using the AccentColor variable
 
-; NOTE: It is STRONGLY recommended that at least either BackgroundColor and AccentColor or BackgroundColorAlpha
-; and AccentColorAlpha be noticably different from each other. If they aren't certain effects (both helpful ones and purely
-; aethetical ones) may be hard to see or completely invisible. This is not intended to discourage you from customizing
-; the colors to your preference, but rather warning you of potential issues you might encounter under certain circumstances.
+ ; NOTE: It is STRONGLY recommended that at least either BackgroundColor and AccentColor or BackgroundColorAlpha
+ ; and AccentColorAlpha be noticably different from each other. If they aren't certain effects (both helpful ones and purely
+ ; aethetical ones) may be hard to see or completely invisible. This is not intended to discourage you from customizing
+ ; the colors to your preference, but rather warning you of potential issues you might encounter under certain circumstances.
 
  PrimaryColor=203,48,48
+ ; Determines the "primary" color.
+ ; Used as the color of most text and foreground objects.
  PrimaryColorAlpha=255
+ ; Determines the alpha (transparency) of meters using the PrimaryColor variable
 
  SecondaryColor=120,120,120
+ ; Determines the "secondary" color.
+ ; Used for certain text and foreground objects.
  SecondaryColorAlpha=255
+ ; Determines the alpha (transparency) of meters using the SecondaryColor variable
+
+ ; NOTE: It is STRONGLY recommended that at least either PrimaryColor and SecondaryColor or PrimaryColorAlpha and
+ ; SecondaryColorAlpha be noticably different from each other. If they aren't certain effects (both helpful ones and purely
+ ; aethetical ones) may be hard to see or completely invisible. This is not intended to discourage you from customizing
+ ; the colors to your preference, but rather warning you of potential issues you might encounter under certain circumstances.
+
 
 ; --- Color Scheme Presets ---
  ; Not sure what you want your Charms bar to look like?
@@ -110,8 +138,6 @@
  ;        will look for the latest Final release.
  RegExp=.*https://github.com/rainmeter/rainmeter/releases/download/v(.*)/Rainmeter
  ; This is the variable is to use retrieve the value of the latest version of Rainmeter from the Rainmeter GitHub site. 
- ;AvailableVersion=AvailableDownloadVersion
- ; Just an obsolete variable I have left here for whatever reason...
 
 
  ;--- Charms Updater ---
@@ -157,9 +183,11 @@
  
  SearchName=Explorer
  ; This is name of the search engine you are using (i.e. Explorer, Google, DeviantArt, etc.)
- ; It does NOT have to be the actual name of the search engine, just something short to remind you what
+ ; It does NOT have to be the actual name of the search engine, just something to remind you what
  ; you are searching with.
  SearchURL=search-ms:query=$UserInput$&crumb=location:#SearchPath#
+ ; This is the URL that will be used to search for your query.
+
  ;%Comspec% "$UserInput$"
  ;%Comspec% /k taskkill /im $UserInput$.exe
  ;https://technet.microsoft.com/en-us/library/bb490880.aspx#EBAA
@@ -167,7 +195,7 @@
  ; search-ms:query=$UserInput$&crumb=location:#SearchPath#
  SearchPath=shell:::{20d04fe0-3aea-1069-a2d8-08002b30309d}&
  ; This variable is only used by the Windows Explorer search
- ; It sets where Exploreres will search for your query (it set to This PC by default, which searches your 
+ ; It sets where Explorer will search for your query (it set to This PC by default, which searches your 
  ; entire PC)
  SearchCmd=2
  SearchCmd2=[!WriteKeyValue Variables SearchCmd "2" "#@#Variables.inc"]
@@ -192,8 +220,7 @@
 
 
 ;=== Weather Skin Variables ===
- WeatherCode=29644
- ;USNY0996
+ WeatherCode=USNY0996
  ; For best results please use your ZIP code or your Weather.com weather code
  WeatherIcons=ClimaconsWhite
  ;PlainWeatherIconsWhite
