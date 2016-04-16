@@ -2,7 +2,7 @@
  Meter=Image
  MeterStyle=ColorGroupStyle
  SolidColor=48,48,48,#CGSAlpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=265
  LeftMouseUpAction=[!CommandMeasure Transition "FadeOut('#BGColorGroup#', '#BGColorGroup#Alpha', 10)"][!CommandMeasure Transition "FadeIn('BGDarkGrey', 'BGDarkGreyAlpha', 8)"][!HideMeterGroup #BGColorGroup#Buttons][!ShowMeterGroup BGDarkGreyButtons][!SetVariable BGColorGroup "BGDarkGrey"][!Update]
 
@@ -116,36 +116,36 @@
 [BGColorGroupSpectrumDGA]
  Meter=Image
  SolidColor=48,48,48,#BGDarkGreyAlpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=265
  W=13
  H=30
  DynamicVariables=1
  Group=BGDarkGrey
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumDGW]
  Meter=Image
- SolidColor=255,255,255,#BGDarkGreyAlpha#
+ SolidColor=#BackgroundColor#,#BGDarkGreyAlpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGDarkGrey
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumLGW1]
  Meter=Image
- SolidColor=255,255,255,#BGLightGreyAlpha#
- X=(#WORKAREAWIDTH#-294)
+ SolidColor=#BackgroundColor#,#BGLightGreyAlpha#
+ X=51
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGLightGrey
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumLGA]
  Meter=Image
@@ -156,30 +156,30 @@
  H=30
  DynamicVariables=1
  Group=BGLightGrey
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumLGW2]
  Meter=Image
- SolidColor=255,255,255,#BGLightGreyAlpha#
+ SolidColor=#BackgroundColor#,#BGLightGreyAlpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGLightGrey
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumRW1]
  Meter=Image
- SolidColor=255,255,255,#BGRed1Alpha#
- X=(#WORKAREAWIDTH#-279)
+ SolidColor=#BackgroundColor#,#BGRed1Alpha#
+ X=66
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGRed1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumRA]
  Meter=Image
@@ -190,30 +190,30 @@
  H=30
  DynamicVariables=1
  Group=BGRed1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumRW2]
  Meter=Image
- SolidColor=255,255,255,#BGRed1Alpha#
+ SolidColor=#BackgroundColor#,#BGRed1Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGRed1
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumR2W1]
  Meter=Image
- SolidColor=255,255,255,#BGRed2Alpha#
- X=(#WORKAREAWIDTH#-264)
+ SolidColor=#BackgroundColor#,#BGRed2Alpha#
+ X=81
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGRed2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumR2A]
  Meter=Image
@@ -224,30 +224,30 @@
  H=30
  DynamicVariables=1
  Group=BGRed2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumR2W2]
  Meter=Image
- SolidColor=255,255,255,#BGRed2Alpha#
+ SolidColor=#BackgroundColor#,#BGRed2Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGRed2
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumOW1]
  Meter=Image
- SolidColor=255,255,255,#BGOrange1Alpha#
- X=(#WORKAREAWIDTH#-249)
+ SolidColor=#BackgroundColor#,#BGOrange1Alpha#
+ X=96
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGOrange1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumOA]
  Meter=Image
@@ -258,30 +258,30 @@
  H=30
  DynamicVariables=1
  Group=BGOrange1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumOW2]
  Meter=Image
- SolidColor=255,255,255,#BGOrange1Alpha#
+ SolidColor=#BackgroundColor#,#BGOrange1Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGOrange1
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumO2W1]
  Meter=Image
- SolidColor=255,255,255,#BGOrange2Alpha#
- X=(#WORKAREAWIDTH#-234)
+ SolidColor=#BackgroundColor#,#BGOrange2Alpha#
+ X=111
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGOrange2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumO2A]
  Meter=Image
@@ -292,30 +292,30 @@
  H=30
  DynamicVariables=1
  Group=BGOrange2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumO2W2]
  Meter=Image
- SolidColor=255,255,255,#BGOrange2Alpha#
+ SolidColor=#BackgroundColor#,#BGOrange2Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGOrange2
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumYW1]
  Meter=Image
- SolidColor=255,255,255,#BGYellow1Alpha#
- X=(#WORKAREAWIDTH#-219)
+ SolidColor=#BackgroundColor#,#BGYellow1Alpha#
+ X=126
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGYellow1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumYA]
  Meter=Image
@@ -326,30 +326,30 @@
  H=30
  DynamicVariables=1
  Group=BGYellow1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumYW2]
  Meter=Image
- SolidColor=255,255,255,#BGYellow1Alpha#
+ SolidColor=#BackgroundColor#,#BGYellow1Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGYellow1
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumY2W1]
  Meter=Image
- SolidColor=255,255,255,#BGYellow2Alpha#
- X=(#WORKAREAWIDTH#-204)
+ SolidColor=#BackgroundColor#,#BGYellow2Alpha#
+ X=141
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGYellow2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumY2A]
  Meter=Image
@@ -360,30 +360,30 @@
  H=30
  DynamicVariables=1
  Group=BGYellow2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumY2W2]
  Meter=Image
- SolidColor=255,255,255,#BGYellow2Alpha#
+ SolidColor=#BackgroundColor#,#BGYellow2Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGYellow2
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumGYW1]
  Meter=Image
- SolidColor=255,255,255,#BGGreenYellowAlpha#
- X=(#WORKAREAWIDTH#-189)
+ SolidColor=#BackgroundColor#,#BGGreenYellowAlpha#
+ X=156
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGGreenYellow
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumGYA]
  Meter=Image
@@ -394,30 +394,30 @@
  H=30
  DynamicVariables=1
  Group=BGGreenYellow
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumGYW2]
  Meter=Image
- SolidColor=255,255,255,#BGGreenYellowAlpha#
+ SolidColor=#BackgroundColor#,#BGGreenYellowAlpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGGreenYellow
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumGW1]
  Meter=Image
- SolidColor=255,255,255,#BGGreen1Alpha#
- X=(#WORKAREAWIDTH#-174)
+ SolidColor=#BackgroundColor#,#BGGreen1Alpha#
+ X=171
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGGreen1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumGA]
  Meter=Image
@@ -428,30 +428,30 @@
  H=30
  DynamicVariables=1
  Group=BGGreen1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumGW2]
  Meter=Image
- SolidColor=255,255,255,#BGGreen1Alpha#
+ SolidColor=#BackgroundColor#,#BGGreen1Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGGreen1
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumG2W1]
  Meter=Image
- SolidColor=255,255,255,#BGGreen2Alpha#
- X=(#WORKAREAWIDTH#-159)
+ SolidColor=#BackgroundColor#,#BGGreen2Alpha#
+ X=186
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGGreen2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumG2A]
  Meter=Image
@@ -462,30 +462,30 @@
  H=30
  DynamicVariables=1
  Group=BGGreen2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumG2W2]
  Meter=Image
- SolidColor=255,255,255,#BGGreen2Alpha#
+ SolidColor=#BackgroundColor#,#BGGreen2Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGGreen2
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumLBW1]
  Meter=Image
- SolidColor=255,255,255,#BGLightBlue1Alpha#
- X=(#WORKAREAWIDTH#-144)
+ SolidColor=#BackgroundColor#,#BGLightBlue1Alpha#
+ X=201
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGLightBlue1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumLBA]
  Meter=Image
@@ -496,30 +496,30 @@
  H=30
  DynamicVariables=1
  Group=BGLightBlue1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumLBW2]
  Meter=Image
- SolidColor=255,255,255,#BGLightBlue1Alpha#
+ SolidColor=#BackgroundColor#,#BGLightBlue1Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGLightBlue1
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumLB2W1]
  Meter=Image
- SolidColor=255,255,255,#BGLightBlue2Alpha#
- X=(#WORKAREAWIDTH#-129)
+ SolidColor=#BackgroundColor#,#BGLightBlue2Alpha#
+ X=216
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGLightBlue2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumLB2A]
  Meter=Image
@@ -530,30 +530,30 @@
  H=30
  DynamicVariables=1
  Group=BGLightBlue2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumLB2W2]
  Meter=Image
- SolidColor=255,255,255,#BGLightBlue2Alpha#
+ SolidColor=#BackgroundColor#,#BGLightBlue2Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGLightBlue2
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumDBW1]
  Meter=Image
- SolidColor=255,255,255,#BGDarkBlue1Alpha#
- X=(#WORKAREAWIDTH#-114)
+ SolidColor=#BackgroundColor#,#BGDarkBlue1Alpha#
+ X=231
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGDarkBlue1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumDBA]
  Meter=Image
@@ -564,30 +564,30 @@
  H=30
  DynamicVariables=1
  Group=BGDarkBlue1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumDBW2]
  Meter=Image
- SolidColor=255,255,255,#BGDarkBlue1Alpha#
+ SolidColor=#BackgroundColor#,#BGDarkBlue1Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGDarkBlue1
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumDB2W1]
  Meter=Image
- SolidColor=255,255,255,#BGDarkBlue2Alpha#
- X=(#WORKAREAWIDTH#-99)
+ SolidColor=#BackgroundColor#,#BGDarkBlue2Alpha#
+ X=246
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGDarkBlue2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumDB2A]
  Meter=Image
@@ -598,30 +598,30 @@
  H=30
  DynamicVariables=1
  Group=BGDarkBlue2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumDB2W2]
  Meter=Image
- SolidColor=255,255,255,#BGDarkBlue2Alpha#
+ SolidColor=#BackgroundColor#,#BGDarkBlue2Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGDarkBlue2
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumPW1]
  Meter=Image
- SolidColor=255,255,255,#BGPink1Alpha#
- X=(#WORKAREAWIDTH#-84)
+ SolidColor=#BackgroundColor#,#BGPink1Alpha#
+ X=261
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGPink1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumPA]
  Meter=Image
@@ -632,30 +632,30 @@
  H=30
  DynamicVariables=1
  Group=BGPink1
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumPW2]
  Meter=Image
- SolidColor=255,255,255,#BGPink1Alpha#
+ SolidColor=#BackgroundColor#,#BGPink1Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGPink1
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumP2W1]
  Meter=Image
- SolidColor=255,255,255,#BGPink2Alpha#
- X=(#WORKAREAWIDTH#-69)
+ SolidColor=#BackgroundColor#,#BGPink2Alpha#
+ X=276
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGPink2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumP2A]
  Meter=Image
@@ -666,30 +666,30 @@
  H=30
  DynamicVariables=1
  Group=BGPink2
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumP2W2]
  Meter=Image
- SolidColor=255,255,255,#BGPink2Alpha#
+ SolidColor=#BackgroundColor#,#BGPink2Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGPink2
- UpdateDivider=10
+ UpdateDivider=-1
 
 
 [BGColorGroupSpectrumP3W1]
  Meter=Image
- SolidColor=255,255,255,#BGPink3Alpha#
- X=(#WORKAREAWIDTH#-54)
+ SolidColor=#BackgroundColor#,#BGPink3Alpha#
+ X=291
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGPink3
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumP3A]
  Meter=Image
@@ -700,15 +700,15 @@
  H=30
  DynamicVariables=1
  Group=BGPink3
- UpdateDivider=10
+ UpdateDivider=-1
 
 [BGColorGroupSpectrumP3W2]
  Meter=Image
- SolidColor=255,255,255,#BGPink3Alpha#
+ SolidColor=#BackgroundColor#,#BGPink3Alpha#
  X=R
  Y=265
  W=2
  H=20
  DynamicVariables=1
  Group=BGPink3
- UpdateDivider=10
+ UpdateDivider=-1

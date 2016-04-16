@@ -2,7 +2,7 @@
  Meter=Image
  MeterStyle=ColorStyle
  SolidColor=#BGDGColor1#,#BGDarkGreyAlpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=128
  Group=BGDarkGrey
 
@@ -40,7 +40,7 @@
  Meter=Image
  MeterStyle=ColorStyle
  SolidColor=#BGDGColor7#,#BGDarkGreyAlpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGDarkGrey
 
@@ -78,7 +78,7 @@
  Meter=Image
  MeterStyle=ColorStyle
  SolidColor=#BGDGColor13#,#BGDarkGreyAlpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGDarkGrey
 
@@ -119,7 +119,7 @@
  Meter=Image
  MeterStyle=ColorStyleButtons
  SolidColor=0,0,0,0
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=128
  Group=BGDarkGreyButtons
  LeftMouseUpAction=[!SetVariable BackgroundColor "#BGDGColor1#"][!SetVariable BGColorRow 1][!SetVariable BGColorColumn 1][!SetVariable BGColorCheckGroup BGDarkGrey][!SetOption BGColorCheck ImageAlpha #*BGDarkGreyAlpha*#][!Update][!WriteKeyValue Variables BackgroundColor "#BGDGColor1#" "#@#Variables.inc"][!WriteKeyValue Variables BGColorRow 1][!WriteKeyValue Variables BGColorColumn 1][!WriteKeyValue Variables BGColorCheckGroup BGDarkGrey][!WriteKeyValue BGColorCheck ImageAlpha #*BGDarkGreyAlpha*#]
@@ -163,7 +163,7 @@
  Meter=Image
  MeterStyle=ColorStyleButtons
  SolidColor=0,0,0,0
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGDarkGreyButtons
  LeftMouseUpAction=[!SetVariable BackgroundColor "#BGDGColor7#"][!SetVariable BGColorRow 1][!SetVariable BGColorColumn 2][!SetVariable BGColorCheckGroup BGDarkGrey][!SetOption BGColorCheck ImageAlpha #*BGDarkGreyAlpha*#][!Update][!WriteKeyValue Variables BackgroundColor "#BGDGColor7#" "#@#Variables.inc"][!WriteKeyValue Variables BGColorRow 1][!WriteKeyValue Variables BGColorColumn 2][!WriteKeyValue Variables BGColorCheckGroup BGDarkGrey][!WriteKeyValue BGColorCheck ImageAlpha #*BGDarkGreyAlpha*#]
@@ -207,7 +207,7 @@
  Meter=Image
  MeterStyle=ColorStyleButtons
  SolidColor=0,0,0,0
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGDarkGreyButtons
  LeftMouseUpAction=[!SetVariable BackgroundColor "#BGDGColor13#"][!SetVariable BGColorRow 1][!SetVariable BGColorColumn 3][!SetVariable BGColorCheckGroup BGDarkGrey][!SetOption BGColorCheck ImageAlpha #*BGDarkGreyAlpha*#][!Update][!WriteKeyValue Variables BackgroundColor "#BGDGColor13#" "#@#Variables.inc"][!WriteKeyValue Variables BGColorRow 1][!WriteKeyValue Variables BGColorColumn 3][!WriteKeyValue Variables BGColorCheckGroup BGDarkGrey][!WriteKeyValue BGColorCheck ImageAlpha #*BGDarkGreyAlpha*#]

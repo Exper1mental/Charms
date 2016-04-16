@@ -2,7 +2,7 @@
  Meter=Image
  MeterStyle=ColorStyle
  SolidColor=#BGP3Color1#,#BGPink3Alpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=128
  Group=BGPink3
 
@@ -40,7 +40,7 @@
  Meter=Image
  MeterStyle=ColorStyle
  SolidColor=#BGP3Color7#,#BGPink3Alpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGPink3
 
@@ -78,7 +78,7 @@
  Meter=Image
  MeterStyle=ColorStyle
  SolidColor=#BGP3Color13#,#BGPink3Alpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGPink3
 
@@ -120,7 +120,7 @@
  Meter=Image
  MeterStyle=ColorStyleButtons
  SolidColor=0,0,0,0
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=128
  Group=BGPink3Buttons
  LeftMouseUpAction=[!SetVariable BackgroundColor "#BGP3Color1#"][!SetVariable BGColorRow 1][!SetVariable BGColorColumn 1][!SetVariable BGColorCheckGroup BGPink3][!SetOption BGColorCheck ImageAlpha #*BGPink3Alpha*#][!Update][!WriteKeyValue Variables BackgroundColor "#BGP3Color1#" "#@#Variables.inc"][!WriteKeyValue Variables BGColorRow 1][!WriteKeyValue Variables BGColorColumn 1][!WriteKeyValue Variables BGColorCheckGroup BGPink3][!WriteKeyValue BGColorCheck ImageAlpha #*BGPink3Alpha*#]
@@ -164,7 +164,7 @@
  Meter=Image
  MeterStyle=ColorStyleButtons
  SolidColor=0,0,0,0
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGPink3Buttons
  LeftMouseUpAction=[!SetVariable BackgroundColor "#BGP3Color7#"][!SetVariable BGColorRow 1][!SetVariable BGColorColumn 2][!SetVariable BGColorCheckGroup BGPink3][!SetOption BGColorCheck ImageAlpha #*BGPink3Alpha*#][!Update][!WriteKeyValue Variables BackgroundColor "#BGP3Color7#" "#@#Variables.inc"][!WriteKeyValue Variables BGColorRow 1][!WriteKeyValue Variables BGColorColumn 2][!WriteKeyValue Variables BGColorCheckGroup BGPink3][!WriteKeyValue BGColorCheck ImageAlpha #*BGPink3Alpha*#]
@@ -208,7 +208,7 @@
  Meter=Image
  MeterStyle=ColorStyleButtons
  SolidColor=0,0,0,0
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGPink3Buttons
  LeftMouseUpAction=[!SetVariable BackgroundColor "#BGP3Color13#"][!SetVariable BGColorRow 1][!SetVariable BGColorColumn 3][!SetVariable BGColorCheckGroup BGPink3][!SetOption BGColorCheck ImageAlpha #*BGPink3Alpha*#][!Update][!WriteKeyValue Variables BackgroundColor "#BGP3Color13#" "#@#Variables.inc"][!WriteKeyValue Variables BGColorRow 1][!WriteKeyValue Variables BGColorColumn 3][!WriteKeyValue Variables BGColorCheckGroup BGPink3][!WriteKeyValue BGColorCheck ImageAlpha #*BGPink3Alpha*#]

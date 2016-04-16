@@ -2,7 +2,7 @@
  Meter=Image
  MeterStyle=ColorGroupStyle
  SolidColor=48,48,48,#CGSAlpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=445
  LeftMouseUpAction=[!CommandMeasure Transition "FadeOut('#AColorGroup#', '#AColorGroup#Alpha', 10)"][!CommandMeasure Transition "FadeIn('ADarkGrey', 'ADarkGreyAlpha', 8)"][!HideMeterGroup #AColorGroup#Buttons][!ShowMeterGroup ADarkGreyButtons][!SetVariable AColorGroup "ADarkGrey"][!Update]
 
@@ -115,7 +115,7 @@
 [AColorGroupSpectrumDGA]
  Meter=Image
  SolidColor=48,48,48,#ADarkGreyAlpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=445
  W=13
  H=30
@@ -125,7 +125,7 @@
 
 [AColorGroupSpectrumDGW]
  Meter=Image
- SolidColor=255,255,255,#ADarkGreyAlpha#
+ SolidColor=#BackgroundColor#,#ADarkGreyAlpha#
  X=R
  Y=445
  W=2
@@ -137,8 +137,8 @@
 
 [AColorGroupSpectrumLGW1]
  Meter=Image
- SolidColor=255,255,255,#ALightGreyAlpha#
- X=(#WORKAREAWIDTH#-294)
+ SolidColor=#BackgroundColor#,#ALightGreyAlpha#
+ X=51
  Y=445
  W=2
  H=20
@@ -159,7 +159,7 @@
 
 [AColorGroupSpectrumLGW2]
  Meter=Image
- SolidColor=255,255,255,#ALightGreyAlpha#
+ SolidColor=#BackgroundColor#,#ALightGreyAlpha#
  X=R
  Y=445
  W=2
@@ -171,8 +171,8 @@
 
 [AColorGroupSpectrumRW1]
  Meter=Image
- SolidColor=255,255,255,#ARed1Alpha#
- X=(#WORKAREAWIDTH#-279)
+ SolidColor=#BackgroundColor#,#ARed1Alpha#
+ X=66
  Y=445
  W=2
  H=20
@@ -193,7 +193,7 @@
 
 [AColorGroupSpectrumRW2]
  Meter=Image
- SolidColor=255,255,255,#ARed1Alpha#
+ SolidColor=#BackgroundColor#,#ARed1Alpha#
  X=R
  Y=445
  W=2
@@ -205,8 +205,8 @@
 
 [AColorGroupSpectrumR2W1]
  Meter=Image
- SolidColor=255,255,255,#ARed2Alpha#
- X=(#WORKAREAWIDTH#-264)
+ SolidColor=#BackgroundColor#,#ARed2Alpha#
+ X=81
  Y=445
  W=2
  H=20
@@ -227,7 +227,7 @@
 
 [AColorGroupSpectrumR2W2]
  Meter=Image
- SolidColor=255,255,255,#ARed2Alpha#
+ SolidColor=#BackgroundColor#,#ARed2Alpha#
  X=R
  Y=445
  W=2
@@ -239,8 +239,8 @@
 
 [AColorGroupSpectrumOW1]
  Meter=Image
- SolidColor=255,255,255,#AOrange1Alpha#
- X=(#WORKAREAWIDTH#-249)
+ SolidColor=#BackgroundColor#,#AOrange1Alpha#
+ X=96
  Y=445
  W=2
  H=20
@@ -261,7 +261,7 @@
 
 [AColorGroupSpectrumOW2]
  Meter=Image
- SolidColor=255,255,255,#AOrange1Alpha#
+ SolidColor=#BackgroundColor#,#AOrange1Alpha#
  X=R
  Y=445
  W=2
@@ -273,8 +273,8 @@
 
 [AColorGroupSpectrumO2W1]
  Meter=Image
- SolidColor=255,255,255,#AOrange2Alpha#
- X=(#WORKAREAWIDTH#-234)
+ SolidColor=#BackgroundColor#,#AOrange2Alpha#
+ X=111
  Y=445
  W=2
  H=20
@@ -295,7 +295,7 @@
 
 [AColorGroupSpectrumO2W2]
  Meter=Image
- SolidColor=255,255,255,#AOrange2Alpha#
+ SolidColor=#BackgroundColor#,#AOrange2Alpha#
  X=R
  Y=445
  W=2
@@ -307,8 +307,8 @@
 
 [AColorGroupSpectrumYW1]
  Meter=Image
- SolidColor=255,255,255,#AYellow1Alpha#
- X=(#WORKAREAWIDTH#-219)
+ SolidColor=#BackgroundColor#,#AYellow1Alpha#
+ X=126
  Y=445
  W=2
  H=20
@@ -329,7 +329,7 @@
 
 [AColorGroupSpectrumYW2]
  Meter=Image
- SolidColor=255,255,255,#AYellow1Alpha#
+ SolidColor=#BackgroundColor#,#AYellow1Alpha#
  X=R
  Y=445
  W=2
@@ -341,8 +341,8 @@
 
 [AColorGroupSpectrumY2W1]
  Meter=Image
- SolidColor=255,255,255,#AYellow2Alpha#
- X=(#WORKAREAWIDTH#-204)
+ SolidColor=#BackgroundColor#,#AYellow2Alpha#
+ X=141
  Y=445
  W=2
  H=20
@@ -363,7 +363,7 @@
 
 [AColorGroupSpectrumY2W2]
  Meter=Image
- SolidColor=255,255,255,#AYellow2Alpha#
+ SolidColor=#BackgroundColor#,#AYellow2Alpha#
  X=R
  Y=445
  W=2
@@ -375,8 +375,8 @@
 
 [AColorGroupSpectrumGYW1]
  Meter=Image
- SolidColor=255,255,255,#AGreenYellowAlpha#
- X=(#WORKAREAWIDTH#-189)
+ SolidColor=#BackgroundColor#,#AGreenYellowAlpha#
+ X=156
  Y=445
  W=2
  H=20
@@ -397,7 +397,7 @@
 
 [AColorGroupSpectrumGYW2]
  Meter=Image
- SolidColor=255,255,255,#AGreenYellowAlpha#
+ SolidColor=#BackgroundColor#,#AGreenYellowAlpha#
  X=R
  Y=445
  W=2
@@ -409,8 +409,8 @@
 
 [AColorGroupSpectrumGW1]
  Meter=Image
- SolidColor=255,255,255,#AGreen1Alpha#
- X=(#WORKAREAWIDTH#-174)
+ SolidColor=#BackgroundColor#,#AGreen1Alpha#
+ X=171
  Y=445
  W=2
  H=20
@@ -431,7 +431,7 @@
 
 [AColorGroupSpectrumGW2]
  Meter=Image
- SolidColor=255,255,255,#AGreen1Alpha#
+ SolidColor=#BackgroundColor#,#AGreen1Alpha#
  X=R
  Y=445
  W=2
@@ -443,8 +443,8 @@
 
 [AColorGroupSpectrumG2W1]
  Meter=Image
- SolidColor=255,255,255,#AGreen2Alpha#
- X=(#WORKAREAWIDTH#-159)
+ SolidColor=#BackgroundColor#,#AGreen2Alpha#
+ X=186
  Y=445
  W=2
  H=20
@@ -465,7 +465,7 @@
 
 [AColorGroupSpectrumG2W2]
  Meter=Image
- SolidColor=255,255,255,#AGreen2Alpha#
+ SolidColor=#BackgroundColor#,#AGreen2Alpha#
  X=R
  Y=445
  W=2
@@ -477,8 +477,8 @@
 
 [AColorGroupSpectrumLBW1]
  Meter=Image
- SolidColor=255,255,255,#ALightBlue1Alpha#
- X=(#WORKAREAWIDTH#-144)
+ SolidColor=#BackgroundColor#,#ALightBlue1Alpha#
+ X=201
  Y=445
  W=2
  H=20
@@ -499,7 +499,7 @@
 
 [AColorGroupSpectrumLBW2]
  Meter=Image
- SolidColor=255,255,255,#ALightBlue1Alpha#
+ SolidColor=#BackgroundColor#,#ALightBlue1Alpha#
  X=R
  Y=445
  W=2
@@ -511,8 +511,8 @@
 
 [AColorGroupSpectrumLB2W1]
  Meter=Image
- SolidColor=255,255,255,#ALightBlue2Alpha#
- X=(#WORKAREAWIDTH#-129)
+ SolidColor=#BackgroundColor#,#ALightBlue2Alpha#
+ X=219
  Y=445
  W=2
  H=20
@@ -533,7 +533,7 @@
 
 [AColorGroupSpectrumLB2W2]
  Meter=Image
- SolidColor=255,255,255,#ALightBlue2Alpha#
+ SolidColor=#BackgroundColor#,#ALightBlue2Alpha#
  X=R
  Y=445
  W=2
@@ -545,8 +545,8 @@
 
 [AColorGroupSpectrumDBW1]
  Meter=Image
- SolidColor=255,255,255,#ADarkBlue1Alpha#
- X=(#WORKAREAWIDTH#-114)
+ SolidColor=#BackgroundColor#,#ADarkBlue1Alpha#
+ X=231
  Y=445
  W=2
  H=20
@@ -567,7 +567,7 @@
 
 [AColorGroupSpectrumDBW2]
  Meter=Image
- SolidColor=255,255,255,#ADarkBlue1Alpha#
+ SolidColor=#BackgroundColor#,#ADarkBlue1Alpha#
  X=R
  Y=445
  W=2
@@ -579,8 +579,8 @@
 
 [AColorGroupSpectrumDB2W1]
  Meter=Image
- SolidColor=255,255,255,#ADarkBlue2Alpha#
- X=(#WORKAREAWIDTH#-99)
+ SolidColor=#BackgroundColor#,#ADarkBlue2Alpha#
+ X=246
  Y=445
  W=2
  H=20
@@ -601,7 +601,7 @@
 
 [AColorGroupSpectrumDB2W2]
  Meter=Image
- SolidColor=255,255,255,#ADarkBlue2Alpha#
+ SolidColor=#BackgroundColor#,#ADarkBlue2Alpha#
  X=R
  Y=445
  W=2
@@ -613,8 +613,8 @@
 
 [AColorGroupSpectrumPW1]
  Meter=Image
- SolidColor=255,255,255,#APink1Alpha#
- X=(#WORKAREAWIDTH#-84)
+ SolidColor=#BackgroundColor#,#APink1Alpha#
+ X=261
  Y=445
  W=2
  H=20
@@ -635,7 +635,7 @@
 
 [AColorGroupSpectrumPW2]
  Meter=Image
- SolidColor=255,255,255,#APink1Alpha#
+ SolidColor=#BackgroundColor#,#APink1Alpha#
  X=R
  Y=445
  W=2
@@ -647,8 +647,8 @@
 
 [AColorGroupSpectrumP2W1]
  Meter=Image
- SolidColor=255,255,255,#APink2Alpha#
- X=(#WORKAREAWIDTH#-69)
+ SolidColor=#BackgroundColor#,#APink2Alpha#
+ X=276
  Y=445
  W=2
  H=20
@@ -669,7 +669,7 @@
 
 [AColorGroupSpectrumP2W2]
  Meter=Image
- SolidColor=255,255,255,#APink2Alpha#
+ SolidColor=#BackgroundColor#,#APink2Alpha#
  X=R
  Y=445
  W=2
@@ -681,8 +681,8 @@
 
 [AColorGroupSpectrumP3W1]
  Meter=Image
- SolidColor=255,255,255,#APink3Alpha#
- X=(#WORKAREAWIDTH#-54)
+ SolidColor=#BackgroundColor#,#APink3Alpha#
+ X=291
  Y=445
  W=2
  H=20
@@ -703,7 +703,7 @@
 
 [AColorGroupSpectrumP3W2]
  Meter=Image
- SolidColor=255,255,255,#APink3Alpha#
+ SolidColor=#BackgroundColor#,#APink3Alpha#
  X=R
  Y=445
  W=2

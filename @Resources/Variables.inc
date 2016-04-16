@@ -1,6 +1,6 @@
 [Variables]
 
-; NOTICE: Documentation is provided here in english. There are no translations of the documentation available. :(
+; NOTICE: Documentation here is provided in english. There are no translations of the documentation currently available. :(
 
 ;=== Generic Variables ===
 ;~~~ Appearence and Performance Settings ~~~
@@ -20,10 +20,17 @@
  ;      0     Normal. The sidebars will behave...normally
  ;      1     Topmost. The sidebar will display on top of other windows and skins, but won't compete with
  ;               other skins to stay Topmost
- ;      2     Stay Topmost. The sidebare will force itself to display on top of any other window and skin. This
+ ;      2     Stay Topmost. The sidebar will force itself to display on top of any other window and skin. This
  ;               may cause issues if another window or skin in that area of the desktop also tries to Stay Topmost.
  ;               This setting can be useful if you have other skins set to Topmost and want to make sure the sidebar
  ;               is on top of them.
+ BackgroundBlur=1
+ ; Determines if Charms skins blur their backgrounds.
+ ;     If set to "0" then the Charms skins will not blur their backgrounds.
+ ;     If set to "1" then the Charms skins will blur their backgrounds.
+ ; Rainmeter supports the native aero blur of Windows Vista and 7. Windows 10 users recieve blur thanks to the FrostedGlass plugin. 
+ ; Bear in mind that the workaround used by this plugin for WIndows 10 users is undocumented by Microsoft and may cease to work at any time.
+ AutoReposition=1
 
 
 ;~~~ Fonts ~~~
@@ -48,7 +55,7 @@
  ; Pretty straightforward. Determines the background color
  ; Uses the RGB (Red,Green,Blue) format
  ; "0,0,0" is completely black and "255,255,255" is completely white
- BackgroundColorAlpha=230
+ BackgroundColorAlpha=200
  ; Determines the alpha (transparency) of the meters using the BackgroundColor variable
  ; "0" is completely transparent and "255" is completely opaque
 
@@ -230,7 +237,9 @@
   ; Setting this to "M" will change your weather unit to Celsius
  Unit1=F
  Unit2=M
- ; Please do not tamper with the above variables unless you know what you are doing.
+ ; Please do not tamper with the above two variables unless you know what you are doing.
  WeatherUnitAutodetect=0
- ; This determines whether or not Charms uses your system weather unit or the skin weather unit (which
- ; is above and called Unit)
+ ; This variable allows you to let the skin detect your system's unit system (Metric or Imperial) and then
+ ; use the appropriate weather unit. If enabled this will override the skin's Unit variable set above.
+ ; Setting to 1 enables Autodetect
+ ; Setting to 0 disable it

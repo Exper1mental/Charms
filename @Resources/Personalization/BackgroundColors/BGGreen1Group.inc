@@ -2,7 +2,7 @@
  Meter=Image
  MeterStyle=ColorStyle
  SolidColor=#BGG1Color1#,#BGGreen1Alpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=128
  Group=BGGreen1
 
@@ -40,7 +40,7 @@
  Meter=Image
  MeterStyle=ColorStyle
  SolidColor=#BGG1Color7#,#BGGreen1Alpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGGreen1
 
@@ -78,7 +78,7 @@
  Meter=Image
  MeterStyle=ColorStyle
  SolidColor=#BGG1Color13#,#BGGreen1Alpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGGreen1
 
@@ -120,7 +120,7 @@
  Meter=Image
  MeterStyle=ColorStyleButtons
  SolidColor=0,0,0,0
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=128
  Group=BGGreen1Buttons
  LeftMouseUpAction=[!SetVariable BackgroundColor "#BGG1Color1#"][!SetVariable BGColorRow 1][!SetVariable BGColorColumn 1][!SetVariable BGColorCheckGroup BGGreen1][!SetOption BGColorCheck ImageAlpha #*BGGreen1Alpha*#][!Update][!WriteKeyValue Variables BackgroundColor "#BGG1Color1#" "#@#Variables.inc"][!WriteKeyValue Variables BGColorRow 1][!WriteKeyValue Variables BGColorColumn 1][!WriteKeyValue Variables BGColorCheckGroup BGGreen1][!WriteKeyValue BGColorCheck ImageAlpha #*BGGreen1Alpha*#]
@@ -164,7 +164,7 @@
  Meter=Image
  MeterStyle=ColorStyleButtons
  SolidColor=0,0,0,0
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGGreen1Buttons
  LeftMouseUpAction=[!SetVariable BackgroundColor "#BGG1Color7#"][!SetVariable BGColorRow 1][!SetVariable BGColorColumn 2][!SetVariable BGColorCheckGroup BGGreen1][!SetOption BGColorCheck ImageAlpha #*BGGreen1Alpha*#][!Update][!WriteKeyValue Variables BackgroundColor "#BGG1Color7#" "#@#Variables.inc"][!WriteKeyValue Variables BGColorRow 1][!WriteKeyValue Variables BGColorColumn 2][!WriteKeyValue Variables BGColorCheckGroup BGGreen1][!WriteKeyValue BGColorCheck ImageAlpha #*BGGreen1Alpha*#]
@@ -208,7 +208,7 @@
  Meter=Image
  MeterStyle=ColorStyleButtons
  SolidColor=0,0,0,0
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=BGGreen1Buttons
  LeftMouseUpAction=[!SetVariable BackgroundColor "#BGG1Color13#"][!SetVariable BGColorRow 1][!SetVariable BGColorColumn 3][!SetVariable BGColorCheckGroup BGGreen1][!SetOption BGColorCheck ImageAlpha #*BGGreen1Alpha*#][!Update][!WriteKeyValue Variables BackgroundColor "#BGG1Color13#" "#@#Variables.inc"][!WriteKeyValue Variables BGColorRow 1][!WriteKeyValue Variables BGColorColumn 3][!WriteKeyValue Variables BGColorCheckGroup BGGreen1][!WriteKeyValue BGColorCheck ImageAlpha #*BGGreen1Alpha*#]

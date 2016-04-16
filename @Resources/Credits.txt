@@ -2,12 +2,14 @@ Many thanks to:
 - The developers of Rainmeter for making this possible
 - The developers of Sublime Text 2 for the superb script editing program
 - The developers of GitHub for their awesome software and website
-- DAKirby of DeviantART for the Screenshot, Device Manager, and Devices icons
-- Janne Huttunen for the Locate32 search program
+- DAKirby of DeviantART for the Screenshot icon
 - FaradeyUA of DeviantART for the handy Screenshot tool
+- .raptor of the Rainmeter forums for the Spotify plugin
+- Janne Huttunen for the Locate32 search program
 - Kaelri of the Rainmeter forums for the wonderous Transitions lua script
 - MangeMouette of DeviantART for the Rain Updater skin and AutoIt executable which my updater is based on
 - Adam Whitcroft for the Climacon weather icons
+- theAzack9 of the Rainmeter forums for the FrostedGlass plugin
 
 Authors of works included but not yet integrated:
 - JSMorley of the Rainmeter Forums for RainRGB4
@@ -16,3 +18,5 @@ Authors of works included but not yet integrated:
 - Nels-o of GitHub for the Toaster win 8 console notification app
 - Paul of l2adv.com for the alternative L2Toast notification app
 - Melvyn Laily for the ColorMatrixViewer
+
+Did I miss someone? If you think someone should be on this list that is not feel free to contact me.

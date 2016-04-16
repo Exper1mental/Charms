@@ -2,7 +2,7 @@
  Meter=Image
  MeterStyle=ColorStyle
  SolidColor=#AG1Color1#,#AGreen1Alpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=353
  Group=AGreen1
 
@@ -40,7 +40,7 @@
  Meter=Image
  MeterStyle=ColorStyle
  SolidColor=#AG1Color7#,#AGreen1Alpha#
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=AGreen1
 
@@ -83,7 +83,7 @@
  Meter=Image
  MeterStyle=ColorStyleButtons
  SolidColor=0,0,0,0
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=353
  Group=AGreen1Buttons
  LeftMouseUpAction=[!SetVariable AccentColor "#AG1Color1#"][!SetVariable AColorRow 1][!SetVariable AColorColumn 1][!SetVariable AColorCheckGroup AGreen1][!SetOption AColorCheck ImageAlpha #*AGreen1Alpha*#][!Update][!WriteKeyValue Variables AccentColor "#AG1Color1#" "#@#Variables.inc"][!WriteKeyValue Variables AColorRow 1][!WriteKeyValue Variables AColorColumn 1][!WriteKeyValue Variables AColorCheckGroup AGreen1][!WriteKeyValue AColorCheck ImageAlpha #*AGreen1Alpha*#]
@@ -127,7 +127,7 @@
  Meter=Image
  MeterStyle=ColorStyleButtons
  SolidColor=0,0,0,0
- X=(#WORKAREAWIDTH#-307)
+ X=38
  Y=R
  Group=AGreen1Buttons
  LeftMouseUpAction=[!SetVariable AccentColor "#AG1Color7#"][!SetVariable AColorRow 1][!SetVariable AColorColumn 2][!SetVariable AColorCheckGroup AGreen1][!SetOption AColorCheck ImageAlpha #*AGreen1Alpha*#][!Update][!WriteKeyValue Variables AccentColor "#AG1Color7#" "#@#Variables.inc"][!WriteKeyValue Variables AColorRow 1][!WriteKeyValue Variables AColorColumn 2][!WriteKeyValue Variables AColorCheckGroup AGreen1][!WriteKeyValue AColorCheck ImageAlpha #*AGreen1Alpha*#]
