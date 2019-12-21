@@ -1,6 +1,6 @@
 Many thanks to:
 - The developers of Rainmeter for making this possible
-- The developers of Sublime Text 2 for the superb script editing program
+- The developers of Sublime Text 3 for the superb script editing program
 - The developers of GitHub for their awesome software and website
 - DAKirby of DeviantART for the Screenshot icon
 - FaradeyUA of DeviantART for the handy Screenshot tool
