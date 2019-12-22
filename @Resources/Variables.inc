@@ -104,17 +104,17 @@ TimeFormat=12
  ;           may cause issues if another window or skin in that area of the desktop also tries to Stay Topmost.
  ;           This setting can be useful if you have other skins set to Topmost and want to make sure the sidebar
  ;           is on top of them.
- 
+
  BackgroundBlur=1
  ; Determines if Charms skins blur their backgrounds.
  ;     If set to "0" then the Charms skins will not blur their backgrounds.
  ;     If set to "1" then the Charms skins will blur their backgrounds.
  ; Rainmeter supports the native aero blur of Windows Vista and 7. Windows 10 users recieve blur thanks to the
- ; FrostedGlass plugin. 
- ; 
+ ; FrostedGlass plugin.
+ ;
  ; Bear in mind that the workaround used by the FrostedGlass plugin is undocumented by Microsoft and may stop
  ; working at any time.
- 
+
  AutoReposition=True
  ; Determines if the skins autoreposition themselves. Disabling this allows you to customize the location of
  ; the sidebars.
@@ -176,7 +176,7 @@ TimeFormat=12
 
  SecondaryColor=120,120,120
  ; Determines the "secondary" color.
- ; Used for certain text and foreground objects.
+ ; Used for certain "secondary" text and foreground objects.
  SecondaryColorAlpha=255
  ; Determines the alpha (transparency) of meters using the SecondaryColor variable
 
@@ -211,7 +211,7 @@ TimeFormat=12
  ; PrimaryColorAlpha=255
  ; SecondaryColor=160,160,160
  ; SecondaryColorAlpha=255
- ; 
+ ;
  ; - Bengal Red Color Scheme -
  ; BackgroundColor=20,20,20
  ; BackgroundColorAlpha=180
@@ -259,13 +259,13 @@ TimeFormat=12
 
 
 ;=== Charms Skin Variables ===
- 
+
 
 
 
 
 ;=== Search Skin Variables ===
- ; Documentation 
+ ; Documentation
  ; Within the search skin you can choose between 14 preset search engines, 11 online and 3 local:
  ;      Online
  ;          - Google
@@ -286,7 +286,7 @@ TimeFormat=12
  ; Alternatively, you can use your own search engine by editing the below settings.
  ; Bear in mind if you set another search engine to be your default (by right clicking on it), anything you have entered
  ; for most of these variables will be lost.
- 
+
  SearchName=Explorer
  ; This is name of the search engine you are using (i.e. Explorer, Google, DeviantArt, etc.)
  ; It does NOT have to be the actual name of the search engine, just something to remind you what you are searching with.
@@ -326,7 +326,7 @@ TimeFormat=12
 ;=== Weather Skin Variables ===
  WeatherLocationCode=USNY0996
  ; For best results please use your ZIP code or your Weather.com location code
- 
+
  ; To find your Weather.com location code, use the URL below and add your city
  ; http://wxdata.weather.com/wxdata/search/search?where=
  ; Example: "http://wxdata.weather.com/wxdata/search/search?where=Central Park, NY" (your browser should automatically
